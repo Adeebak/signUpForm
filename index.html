@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign Up Form </title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="signup-container">
+        <div class="image-side">
+
+            <div class="logo-container">
+                <img src="css/images/odin-lined.png" alt="Logo" class="logo">
+                <h1> ODIN </h1>
+            </div>
+
+            <p class="photographer"> Photo by Halie West on Unsplash </p>
+
+        </div>
+        <div class="form-side">
+
+            <div class="heading">
+                <h3> This is not a real online service! You know you need something like this in your life to help
+                    realize
+                    your deepest dreams. Sign up <em>now</em></h3>
+                <br>
+                <h3> You <em>know</em> you want to </h3>
+            </div>
+
+
+            <form action="" method="get">
+                <div class="form-main">
+                    <fieldset>
+
+                        <h3> Let's do this!</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname"> FIRST NAME </label>
+                                <input type="text" name="fname" id="fname">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname"> LAST NAME</label>
+                                <input type="text" name="lname" id="lname">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email"> EMAIL </label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="number"> PHONE NUMBER </label>
+                                <input type="tel" name="tel" id="number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pswd"> PASSWORD </label>
+                                <input type="password" name="password" id="pswd" required>
+                                <p id="error"> </p>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpswd"> CONFIRM PASSWORD </label>
+                                <input type="password" name="Confirm-password" id="cpswd" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+
+
+            <div class="submit">
+
+                <button type="submit"> Create Account </button>
+
+                <p> Already have an acoount? <a href=""> Log In </a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
