@@ -1,0 +1,151 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: my-cool-font, sans-serif;
+    color: aliceblue;
+    font-size: 4.5rem;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-side {
+    background-image: url("images/examplePic.avif");
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 35vw;
+}
+
+.form-side {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(249, 250, 251, 255);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.logo {
+    width: 90px;
+}
+
+.photographer {
+    position: absolute;
+    bottom: 1rem;
+    right: 1.2rem;
+    color: aliceblue;
+}
+
+.heading {
+    height: 34vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-main {
+    height: 33vh;
+    background-color: white;
+    box-shadow: 2px 3px #596D48;
+}
+
+.form-main h3 {
+
+    color: rgb(55 55 55);
+}
+
+.submit {
+    height: 33vh;
+    padding: 3rem;
+}
+
+h3 {
+    padding: 1rem 2.5rem;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin: 0 1.5rem;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    color: rgb(55 55 55);
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    padding: 8px;
+    font-size: 14px;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(0, 0, 255);
+    box-shadow: 0 0 5px rgb(0, 0, 255);
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+#error {
+    color: red;
+    font-size: small;
+}
+
+fieldset {
+    border: none;
+}
+
+button {
+    padding: 1rem 3.5rem;
+    margin-bottom: 1rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: medium;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
